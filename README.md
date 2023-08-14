@@ -10,7 +10,7 @@ Change token in config file (config.php)<br></i>
 Token = your token from config file (default: 123)<br>
 Name = hetzner server name<br>
 Image = OS image (https://docs.hetzner.cloud/#images)<br>
-server_type = hetzner vps plans (https://docs.hetzner.cloud/#pricing<br>
+server_type = hetzner vps plans (https://docs.hetzner.cloud/#pricing)<br>
 datacenter = datacenter (https://docs.hetzner.cloud/#datacenters-get-all-datacenters)<br><br>
 
 URL (example): yourlink.com/api.php?createServer&token=123&name=servername&image=ubuntu-22.04&server_type=cx11&datacenter=nbg1-dc3<br>
