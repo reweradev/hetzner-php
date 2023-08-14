@@ -93,3 +93,21 @@ if ($token === $vToken) {
         }
     }
 }
+
+if ($token === $vToken) {
+  if ($act === "getDatacenters") {
+          $curl = curl_init($datacentersUrl);
+          curl_setopt($curl, CURLOPT_URL, $datacentersUrl);
+          curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+
+          $headers = [
+              "Authorization: Bearer $hetznerToken",
+              "Content-Type: application/json",
+          ];
+          curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
+          $resp = curl_exec($curl);
+          curl_close($curl);
+          var_dump($resp);
+  }
+}
+
