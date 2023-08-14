@@ -23,6 +23,6 @@ Token = your token from config file (default: 123)<br>
 id = id of the server to be deleted<br>
 URL (example): yourlink.com/api.php?deleteServer&token=123&id=4342314<br>
 
-Get all Datacenters:
+Get all Datacenters:<br>
 Token = your token from config file (default: 123)<br>
 URL (example): yourlink.com/api.php?getDatacenters&token=123<br>
