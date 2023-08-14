@@ -1,7 +1,7 @@
 # hetzner-php
 PHP Hetzner integration API
 
-How to use?\n\n
+How to use?
 
 Change hetzner token in config file (config.php)<br>
 Change token in config file (config.php)<br>
